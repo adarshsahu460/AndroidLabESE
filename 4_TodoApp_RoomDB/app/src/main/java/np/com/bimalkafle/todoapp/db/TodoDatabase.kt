@@ -7,7 +7,6 @@ import np.com.bimalkafle.todoapp.Todo
 
 
 @Database(entities = [Todo::class], version = 1)
-@TypeConverters(Converters::class)
 abstract class TodoDatabase : RoomDatabase(){
 
     companion object {

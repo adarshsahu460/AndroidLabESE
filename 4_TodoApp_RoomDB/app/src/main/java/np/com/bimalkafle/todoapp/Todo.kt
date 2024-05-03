@@ -10,7 +10,7 @@ data class Todo(
     @PrimaryKey(autoGenerate = true)
     var id: Int =0,
     var title : String,
-    var createdAt : Date
+    var createdAt : String
 )
 
 
